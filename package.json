@@ -1,0 +1,13 @@
+{
+  "name": "portable-gaming-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:signaling": "cd server/signaling && npm run dev"
+  },
+  "workspaces": [
+    "server/signaling",
+    "server/session",
+    "browser-client"
+  ]
+}
